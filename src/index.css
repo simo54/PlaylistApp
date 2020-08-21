@@ -16,18 +16,19 @@ p {
 
 /* Media Queries */
 @media all and (max-width: 992px) {
-  .containerImg {
-    vertical-align: middle;
+  .containerImg > img {
+    width: 360px;
+    height: 300px;
   }
 }
 
 @media all and (max-width: 768px) {
+  .containerImg > img {
+    width: 360px;
+    height: 300px;
+  }
   p {
     text-align: center !important;
-  }
-
-  .containericonandtitle {
-    text-align: center;
   }
 
   h2,
@@ -37,12 +38,12 @@ p {
 }
 
 @media all and (max-width: 576px) {
+  .containerImg > img {
+    width: 360px;
+    height: 300px;
+  }
   p {
     text-align: center !important;
-  }
-
-  .containericonandtitle {
-    text-align: center;
   }
 
   h2,
