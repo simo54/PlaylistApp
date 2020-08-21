@@ -1,0 +1,52 @@
+a {
+  cursor: pointer;
+}
+
+p {
+  text-align: justify;
+}
+
+.containerImg > img {
+  position: relative;
+}
+
+.containerImg:hover {
+  opacity: 0.5;
+}
+
+/* Media Queries */
+@media all and (max-width: 992px) {
+  .containerImg {
+    vertical-align: middle;
+  }
+}
+
+@media all and (max-width: 768px) {
+  p {
+    text-align: center !important;
+  }
+
+  .containericonandtitle {
+    text-align: center;
+  }
+
+  h2,
+  h6 {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 576px) {
+  p {
+    text-align: center !important;
+  }
+
+  .containericonandtitle {
+    text-align: center;
+  }
+
+  h2,
+  h6 {
+    text-align: center;
+  }
+}
